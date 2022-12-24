@@ -1,0 +1,22 @@
+.container {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto; */
+  z-index: 1;
+}
+.calender-wrapper {
+  width: 285.39px;
+  height: 249px;
+  /* position: fixed; */
+  position: absolute;
+  margin: -10px 15%;
+  /* margin-left: 15%; */
+  background: white;
+}
+.card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

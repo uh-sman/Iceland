@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* scroll-behavior: none; */
+}
+.custom {
+  background: #097c84;
+  box-shadow: 7px 10px 30px rgba(0, 0, 0, 0.05);
+  line-height: 18.57px;
+}
+.search {
+  padding: 10px 69px;
+  background: #f9fbff;
+  border: 1px solid #e1e3e9;
+  outline: none;
+}
+.button {
+  padding: 11px 30px;
+  background: #097c84;
+  box-shadow: 7px 10px 30px rgba(0, 0, 0, 0.05);
+  /* background: #f9fbff; */
+  /* border: 1px solid #e1e3e9; */
+}
+.footer {
+  background: #f0f4fa;
+  /* transform: matrix(1, 0, 0, -1, 0, 0); */
+}

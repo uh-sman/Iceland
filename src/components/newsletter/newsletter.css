@@ -1,0 +1,68 @@
+.image {
+  background: url(../assets/adventure-makes-things-meaningful_t20_Vo0aX3\ 1.png)
+    no-repeat;
+  background-size: cover;
+  height: 714px;
+  /* width: 1440px; */
+  width: 100vw;
+  /* left: 0px; */
+  /* top: 4708px; */
+  border-radius: 0px;
+}
+.news-letter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20%;
+}
+.header-div {
+}
+
+.header {
+  font-family: Gilroy;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 56px;
+}
+.subscribe-button {
+  height: 57px;
+  width: 172px;
+  /* left: 826px;
+  top: 5046px; */
+  border-radius: 0px;
+  color: white;
+  background-color: #097c84;
+}
+.search {
+  text-align: center;
+  height: 57px;
+  width: 327px;
+}
+.subscribe-form {
+  display: flex;
+  /* gap: 10px; */
+  /* flex-direction: column; */
+}
+@media only screen and (max-width: 750px) {
+  .search {
+    text-align: center;
+    width: 80vw;
+  }
+  .news-letter {
+    padding-top: 0px;
+  }
+  .subscribe-form {
+    flex-direction: column;
+  }
+  .subscribe-button {
+    width: 80vw;
+  }
+  .image {
+    height: 304px;
+  }
+}

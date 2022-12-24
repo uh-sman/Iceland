@@ -1,0 +1,185 @@
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 49px;
+  place-items: center;
+}
+.card-content {
+  height: 385px;
+  width: 350px;
+  /* left: 541px;
+  top: 2938px; */
+  border-radius: 0px;
+  overflow: hidden;
+}
+.card-items {
+  background-color: #f3f6fa;
+  height: 309px;
+  width: 342px;
+  color: #5b6780;
+  flex-direction: column;
+  align-items: left;
+  display: flex;
+  padding: 0px 35px;
+  justify-content: center;
+  /* padding: 70px 35px; */
+  border-radius: 5px;
+  /* overflow: hidden; */
+}
+.cars-image {
+  position: absolute;
+  margin-top: -90px;
+}
+.text {
+  margin-top: 18px;
+  line-height: 20px;
+  overflow: hidden;
+}
+.header-text {
+  text-align: left;
+  overflow: hidden;
+  /* font-family: Gilroy; */
+  font-size: 23px;
+  font-weight: 600;
+  /* line-height: 28px; */
+  letter-spacing: 0em;
+  text-align: left;
+}
+a {
+  overflow: hidden;
+  margin-top: 39px;
+  /* font-family: Gilroy; */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #096f7c;
+}
+.rental {
+  overflow: hidden;
+  /* position: absolute; */
+  /* margin-top: -67px; */
+  top: 0px;
+  padding-left: 60px;
+  /* font-family: Gilroy; */
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card {
+  margin: 38px 0px 40px 20px;
+}
+.container {
+  margin-top: 160px;
+}
+.blog-image {
+  position: absolute;
+  height: 252px;
+  width: 348px;
+  /* left: 150px; */
+  margin-top: -16.6999%;
+  border-radius: 0px;
+}
+.blog {
+  /* margin-top: 100px; */
+  margin-bottom: 67px;
+  overflow: hidden;
+  /* position: absolute; */
+  /* margin-top: -67px; */
+  top: 0px;
+  padding-left: 60px;
+  /* font-family: Gilroy; */
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.blog-items {
+  /* height: 268px; */
+  /* width: 348px; */
+  left: 150px;
+  top: 4307px;
+  border-radius: 0px;
+
+  /* background-color: #f3f6fa; */
+
+  background-color: #f3f6fa;
+  flex-direction: column;
+  align-items: left;
+  display: flex;
+  padding: 0px 35px;
+  justify-content: center;
+  /* padding: 70px 35px; */
+  border-radius: 5px;
+}
+.blog-link {
+  /* font-family: Gilroy; */
+  margin-bottom: 39px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.rectangle {
+  height: 6px;
+  width: 77px;
+  margin-left: 60px;
+  /* left: 150px;
+  top: 2755px; */
+  border-radius: 0px;
+
+  background: linear-gradient(66.7deg, #ffffff -66.11%, #e1ecff 100%);
+}
+.link {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1250px) {
+  .card-content {
+    width: 347px;
+
+    /* padding: 30px 234px; */
+    /* place-content: center; */
+    /* width: 100%; */
+  }
+  .card-container {
+    padding: 0px 2px;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 770px) {
+  .card-container {
+    place-items: center;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+  .headers {
+    align-items: center;
+    width: 90vw;
+  }
+  .blog {
+    padding-top: 0px;
+    font-size: 25px;
+    /* line-height: 20px; */
+  }
+  .rental {
+    font-size: 25px;
+  }
+  .ROW {
+    padding-top: 100px;
+  }
+}

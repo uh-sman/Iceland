@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* scroll-behavior: none; */
+}
+.custom {
+  background: #097c84;
+  box-shadow: 7px 10px 30px rgba(0, 0, 0, 0.05);
+  line-height: 18.57px;
+}
+.button {
+  box-sizing: border-box;
+  position: absolute;
+  width: 499px;
+  height: 57px;
+  left: 502px;
+  top: 1110px;
+
+  background: #f9fbff;
+  border: 1px solid #e1e3e9;
+}
